@@ -1,0 +1,210 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: 'open Sans',
+    'sans-serif',
+    'Oswald';
+}
+
+/* slider part css start  */
+.background {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: cover;
+  height: 650px;
+}
+
+.logoImg {
+  margin-top: 50px;
+}
+
+.logoImg img {
+  float: left;
+}
+
+.logoImg p {
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+  font-family: "sans-bold";
+  font-size: 30px;
+  font-weight: "400";
+}
+
+.logoImg a {
+  color: black;
+  font-family: "occur";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sliderContent {
+  padding: 130px 70px 10px 50px;
+}
+
+.sliderContent h4 {
+  font-family: 'occur';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sliderContent h5 {
+  font-family: 'occur';
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.sliderContent p {
+  font-family: 'occur';
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.sliderContent img {
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+.sliderBox {
+  margin-top: 40px;
+}
+
+.sliderBoxOne {
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 5%;
+  position: relative;
+}
+
+.slideBoxTwo {
+  height: 320px;
+  width: 265px;
+  background-color: black;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.slideBoxTwo img {
+  margin-top: 45%;
+  margin-left: 65px;
+  float: left;
+}
+
+.slideBoxTwo p {
+  margin-top: 45%;
+  margin-left: 65px;
+  font-size: 30px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* slider part css end  */
+
+/* Features part css start */
+#features {
+  padding-top: 112px;
+  padding-bottom: 165px;
+}
+
+.features_content h4 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.features_content p {
+  text-align: center;
+  font-family: 'occur';
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.feature_item {
+  margin: 60px 0px 60px 0px;
+}
+
+.feather_item_content h4 {
+  font-family: 'occur';
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.feather_item_content p {
+  font-family: 'occur';
+  font-size: 16px;
+}
+
+/* Features part css end */
+
+/* footer part css start */
+.footerSection {
+  background-color: black;
+  padding-top: 95px;
+  padding-bottom: 136px;
+}
+
+.footerEmail h5 {
+  font-family: 'occur';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.footerEmail p {
+  color: #fff;
+  font-family: 'occur';
+  font-size: 20px;
+  text-align: center;
+}
+
+.footerEmail input {
+  margin-top: 44px;
+  margin-bottom: 73px;
+}
+
+.footerIcon {
+  margin-bottom: 130px;
+}
+
+.footerIcon img {
+  margin-left: 33px;
+}
+
+.footerAddress p {
+  color: #fff;
+  font-family: 'occur';
+  font-size: 16px;
+  line-height: 12px;
+}
+
+.footerAddress ul li a {
+  color: #fff;
+  font-family: 'occur';
+  font-size: 16px;
+}
+
+
+/* footer part css end */
